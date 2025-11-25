@@ -1,19 +1,35 @@
+.vai{
+    background-color: lightgreen;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    display: flexbox;
+}
 .card{
     background-color: grey;
     width: 50px;
 }
 .card_1{
-    background-color: blue;
+    background-color: aqua;
     font-size: 500%;
+    border: 12px;
+    border-radius: 25px;
     font-weight: 100;
-    padding: 100px 50px 75px 25px;  
+    padding: 25px;  
     
 }
-.image{
-    width: 20px;
-    height: 20x;
+img{
+    width: 100px;
+    height: 100px;
 }
 .parent{
     display: flex;
     flex-direction: row;
     background-color: violet;}
+a{
+    color: skyblue;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;}
